@@ -1,0 +1,62 @@
+.contenedor{
+    width: 480px;
+    height: 480px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    
+    
+
+}
+.item1{
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+
+
+}
+.item2{
+    width: 160px;
+    height: 160px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+
+}
+.item3{
+    width: 160px;
+    height: 160px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
