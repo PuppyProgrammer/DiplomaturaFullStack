@@ -1,0 +1,49 @@
+.header {
+  background: #3c0a6a;
+    background: linear-gradient(33deg, #3d2be3 40%, #3c0a6a 60%);
+    background: -webkit-linear-gradient(33deg, #3d2be3 40%, #3c0a6a 60%);
+    background: -moz-linear-gradient(33deg, #3d2be3 40%, #3c0a6a 60%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  bottom: 35px;
+  margin-right: 75px;
+}
+
+.pdf {
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+  background-color: gray;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background: url(C:\DiplomaturaFullStack\research\frontend\public\img\fondo.png);
+  background-size: cover;
+}
+.holder {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+

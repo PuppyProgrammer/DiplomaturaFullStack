@@ -1,0 +1,73 @@
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.samid {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #6da9ed7d;
+}
+
+.tcontacto {
+    width: 20%;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+.formulario input[type="text"] {
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #6da9ed3e;
+}
+
+.samadp {
+    background-color: #2051d683;
+    height: 60%;
+    width: 60%;
+    border-radius: 10%;
+    padding: 15px;
+    position: static;
+    border: 2px solid black;
+}

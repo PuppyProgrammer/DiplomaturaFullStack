@@ -1,0 +1,37 @@
+.buscaimg {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotobusca img {
+    width: 100%;
+    border-radius: 10%;
+    border: 5px solid black;
+}
+
+.textoswanted {
+    display: flex;
+    justify-content: space-around
+}
+
+.shauntalpresentacion {
+    display: flex;
+    width: 30%;
+    background-color: #89bcf6b7;
+    border-radius: 10%;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: static;
+}
+
+.biowanted {
+    display: flex;
+    width: 65%;
+    background-color: #89bcf67d;
+    border-radius: 5%;
+    padding: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: static;
+}

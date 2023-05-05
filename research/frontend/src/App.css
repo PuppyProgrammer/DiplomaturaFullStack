@@ -1,0 +1,16 @@
+/*
+font-family: 'Babylonica', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: url(C:\DiplomaturaFullStack\research\frontend\public\img\fondo.png);
+    background-size: cover;
+}
+.holder {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+

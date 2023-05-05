@@ -1,0 +1,71 @@
+.portada {
+    display: flex;
+    justify-content: center;
+    background: #3d2be3;
+    background: linear-gradient(90deg, #3d2be3 5%, #3c0a6a 50%);
+    background: -webkit-linear-gradient(90deg, #3d2be3 5%, #3c0a6a 50%);
+    background: -moz-linear-gradient(90deg, #3d2be3 5%, #3c0a6a 50%);
+    border-radius: 20px;
+}
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+h3 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    text-align: justify;
+    background-color: #6da9edab;
+    padding: 15px;
+    border: 1px rgba(80, 168, 255, 0.13) solid;
+}
+
+.titulos {
+    background-color: #89bcf6;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px rgba(80, 168, 255, 0.13) solid;
+}
+
+.noticias {
+    background-color: #6094d070;
+    text-align: left;
+    width: 65%;
+    margin-bottom: 190px;
+}
+
+h4 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.Noticia {
+    display: flex;
+    justify-content: space-between;
+}
+li a {
+    text-decoration: none;
+    color: rgb(79, 47, 124);
+}
+
+.sebusca img {
+    border-radius: 10%;
+    border: 3px black solid;
+}
+
+.sebusca:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
+}

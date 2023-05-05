@@ -1,0 +1,43 @@
+.lore {
+    display: flex;
+    width: 90%;
+    text-align: justify;
+    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(90, 159, 228, 0.363);
+    font-weight: bold;
+    position: static;
+}
+
+.portadalab {
+    display: flex;
+}
+
+.criptidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.criptido {
+    border: 5px solid #505eff;
+    border-radius: 5%;
+    width: 30%;
+    text-align: center;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    margin-bottom: 7%;
+}
+
+.criptido:hover {
+    box-shadow: 0px 0px 42px 15px rgba(66, 28, 148, 0.75);
+    -webkit-box-shadow: 0px 0px 42px 15px rgba(66, 28, 148, 0.75);
+    -moz-box-shadow: 0px 0px 42px 15px rgba(66, 28, 148, 0.75);
+    transition: 1s;
+}
+
+.criptido img {
+    border: 2px solid #5728c3;
+    border-radius: 3%;
+}
