@@ -40,7 +40,7 @@ const Principal = (props) => {
                         </ul>
                     </div>
                     <div className="sebusca">
-                        <a href="https://www.britannica.com/animal/megalodon" target="_blank" rel="noreferrer">
+                        <a href="/wanted" target="" rel="noreferrer">
                             <img src="/img/megalodon.png"></img>
                         </a>
                     </div>

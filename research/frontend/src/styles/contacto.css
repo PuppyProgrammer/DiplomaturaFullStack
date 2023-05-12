@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.samid {
+.formulario-contacto {
     display: flex;
     justify-content: space-between;
 
@@ -62,7 +62,7 @@ textarea {
     background-color: #6da9ed3e;
 }
 
-.samadp {
+.texto-contacto {
     background-color: #2051d683;
     height: 60%;
     width: 60%;

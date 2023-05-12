@@ -1,0 +1,24 @@
+<div class="container" style="margin-top: 50px">
+    <h4 style="padding-left: 40%" >Ingrese sus Datos</h4>
+    <div class="row">
+        <form action="/admin/login" method="post" style="padding-left: 40%">
+            <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario" style="width: 35%;">
+                </div>
+            </div>
+            <div class="mb-3 row justify:center">
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña"
+                        name="password" style="width: 35%;">
+                </div>
+            </div>
+            <div style="padding-left: 9%">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+        </form>
+        {{#if error}}
+        <p>Usuario y/o contraseña incorrectos</p>
+        {{/if}}
+    </div>
+</div>

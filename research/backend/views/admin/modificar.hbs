@@ -1,0 +1,39 @@
+<div class="container" style="margin:100px">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar criptido</h4>
+            <form action="/admin/criptidos/modificar" method="post" enctype="multipart/form-data">
+                <input type="hidden" value="{{criptido.id}}" name="id">
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label for="">Nombre</label>
+                    <input type="text" class="form-control" value="{{criptido.nombre}}" name="nombre">
+                </div>
+                <div>
+                    <div class="mb-3 row">
+                        <p>
+                            <label>Imagen: <input type="file" class="form-control" name="imagen" id="imagen" /></label>
+                        </p>
+                        <p>
+                            <label><input type="checkbox" name="img_delete" id="img_delete" value="1">
+                                Eliminar imagen actual?</label>
+                            <input type="hidden" name="img_original" value="{{criptido.img_id}}">
+                        </p>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label for="">Clase</label>
+                    <input type="text" class="form-control" value="{{criptido.clase}}" name="clase">
+                </div>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label for="">Estado Actual</label>
+                    <input type="text" class="form-control" value="{{criptido.estado}}" name="estado">
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-top: 10px">Modificar</button>
+        </div>
+        {{#if error}}
+        <p>{{message}}</p>
+        {{/if}}
+        </form>
+    </div>
+</div>
+</div>

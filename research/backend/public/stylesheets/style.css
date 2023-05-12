@@ -26,20 +26,11 @@
   justify-content: end;
 }
 
-footer {
-  background-color: gray;
-  clear: both;
-  color: #333;
-  text-align: center;
-  padding: 5px 0;
-  margin-top: 20px;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 20px;
-  background: url(C:\DiplomaturaFullStack\research\frontend\public\img\fondo.png);
+  background-image: url('../public/images/fondo.png');
   background-size: cover;
 }
 .holder {
